@@ -56,3 +56,5 @@ def markov_maker():
 
 markov_maker()
 print markov_matrix
+# csv.writer(markov_matrix, )
+np.savetxt("markov_matrix.csv", markov_matrix, delimiter=",")
